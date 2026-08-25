@@ -52,7 +52,8 @@ For every video frame:
 
 # 📂 Project Structure
 
-Real-Time-Vehicle-Detection-Tracking-Lane-Segmentation/
+```text
+Real-Time-Vehicle-Detection-Tracking-and-Lane-Segmentation/
 │
 ├── dataset/
 │   ├── images/
