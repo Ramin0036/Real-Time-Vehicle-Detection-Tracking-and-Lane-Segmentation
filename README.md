@@ -1,5 +1,7 @@
 # 🚗 Real-Time Vehicle Detection, Tracking & Lane Segmentation
 
+<img width="288" height="512" alt="output_gif" src="https://github.com/user-attachments/assets/b12dd747-1575-4b8e-9179-16f105ab16c7" />
+
 A real-time computer vision system for **vehicle detection, multi-object tracking, and road lane segmentation**.
 
 This project combines a custom-trained **YOLO26s** object detection model, **BoT-SORT** multi-object tracking, and a deep learning-based **lane segmentation model** into a unified video processing pipeline.
@@ -506,9 +508,7 @@ Vehicle Bounding Boxes
 +
 Track IDs
 
-Example visualization:
-
-![Detection, Tracking and Lane Segmentation](assets/result.png)
+<Figure size 1500x500 with 3 Axes>
 
 ---
 
@@ -532,74 +532,7 @@ The complete system combines these detection results with real-time tracking and
 
 ---
 
-# 🚀 Future Improvements
-
-Possible improvements for future versions include:
-
-- Increase YOLO input resolution.
-- Train larger YOLO models such as YOLO26m or YOLO26l.
-- Increase the number of training epochs.
-- Improve pedestrian detection.
-- Improve truck detection.
-- Use a stronger Re-ID model.
-- Improve lane segmentation accuracy.
-- Add vehicle counting.
-- Add lane-based vehicle counting.
-- Estimate vehicle speed.
-- Detect lane departures.
-- Add traffic violation detection.
-- Optimize the pipeline for higher FPS.
-- Export models to TensorRT or other optimized inference formats.
-- Add real-time FPS monitoring.
-
----
-
-# 🔬 Limitations
-
-The current system has several limitations:
-
-- Pedestrian detection performance is lower than car detection performance.
-- Lane segmentation accuracy depends on lighting and road conditions.
-- Tracking performance can degrade during heavy occlusion.
-- Small objects may be difficult to detect at 320 × 320 resolution.
-- Running TensorFlow segmentation and YOLO inference simultaneously can increase computational requirements.
-- Performance may vary depending on the input video's resolution and frame rate.
-
----
-
-# 🧩 Technologies Used
-
-- Python
-- OpenCV
-- NumPy
-- TensorFlow
-- Keras
-- PyTorch
-- Ultralytics YOLO
-- YOLO26s
-- BoxMOT
-- BoT-SORT
-- OSNet
-- Scikit-learn
-- Pandas
-- Matplotlib
-- PIL
-
----
-
 # 📚 References
-
-## YOLO / Ultralytics
-
-https://docs.ultralytics.com/
-
-## BoxMOT
-
-https://github.com/mikel-brostrom/boxmot
-
-## BoT-SORT
-
-https://github.com/NirAharon/BoT-SORT
 
 ## Udacity Self-Driving Car Dataset
 
@@ -619,9 +552,7 @@ https://www.kaggle.com/datasets/mehmetokuyar/line-segmentation
 
 Developed by **Ramin Allahverdizadeh**
 
-GitHub:
-
-https://github.com/Ramin0036
+GitHub: https://github.com/Ramin0036
 
 ---
 
