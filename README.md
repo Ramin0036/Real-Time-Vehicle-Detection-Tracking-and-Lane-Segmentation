@@ -253,6 +253,8 @@ Validation results:
 | Pedestrian | 0.755 | 0.384 | 0.480 | 0.216 |
 | Overall | 0.813 | 0.582 | 0.676 | 0.406 |
 
+<img width="2400" height="1200" alt="results" src="https://github.com/user-attachments/assets/9798fb05-5e09-4e6e-9eef-e3354f86c4cf" />
+
 Validation dataset:
 
 - Images: 942
@@ -508,7 +510,7 @@ Vehicle Bounding Boxes
 +
 Track IDs
 
-<Figure size 1500x500 with 3 Axes>
+<img width="1760" height="610" alt="Screenshot 2026-08-25 203635" src="https://github.com/user-attachments/assets/5675e46e-5127-4bf1-97ce-3161d569d377" />
 
 ---
 
