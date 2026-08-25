@@ -96,7 +96,7 @@ Real-Time-Vehicle-Detection-Tracking-and-Lane-Segmentation/
 │
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 # 📊 Datasets
