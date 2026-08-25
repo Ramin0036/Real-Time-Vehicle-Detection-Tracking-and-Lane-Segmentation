@@ -55,8 +55,8 @@ For every video frame:
 Real-Time-Vehicle-Detection-Tracking-Lane-Segmentation/
 │
 ├── dataset/
-│   ├── frames/
-│   └── lane-masks/
+│   ├── images/
+│   └── labels.csv
 │
 ├── yolo_dataset/
 │   ├── images/
